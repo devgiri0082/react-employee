@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2e2e2e;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    height: 80px;
+    width: 400px;
+    background-color: white;
+    color: #2e2e2e;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
